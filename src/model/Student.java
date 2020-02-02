@@ -1,10 +1,10 @@
 package model;
 
 public class Student {
-  private String name;
-  private int age;
-  private String gender;
-  private int studentNumber;
+  public String name;
+  public int age;
+  public String gender;
+  public int studentNumber;
 
   //构造方法
   public Student(String name, int age, String gender, int studentNumber) {
